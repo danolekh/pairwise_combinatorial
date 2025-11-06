@@ -315,7 +315,7 @@ def combinatorial_method(
     A: np.ndarray,
     n_workers: int | Callable = smart_worker_count,
     aggregator: Callable = weighted_geometric_mean,
-) -> Dict:
+) -> np.ndarray:
     """
     Combinatorial method using Prüfer sequence enumeration.
 
